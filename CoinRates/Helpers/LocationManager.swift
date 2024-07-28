@@ -38,7 +38,7 @@ final class LocationManager {
     }
     
     private func addPlacemark(_ map: YMKMap) {
-        let image = UIImage(named: "placemark_icon1") ?? UIImage()
+        let image = UIImage(named: "placemark_icon") ?? UIImage()
         let placemark = map.mapObjects.addPlacemark()
         placemark.geometry = YMKPoint(latitude: latitude, longitude: longitude)
         placemark.setIconWith(image)
