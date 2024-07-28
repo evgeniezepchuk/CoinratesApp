@@ -127,9 +127,9 @@ extension BranchViewController {
         let symbol2 = configureSymbol(name: "phone.down")
         let symbol3 = configureSymbol(name: "paintbrush.pointed")
         
-        let text1 = configureLabel(text: "text1 dadasdsdfls;dkf;skf;l")
+        let text1 = configureLabel(text: filialsData.info_worktime ?? "")
         let text2 = configureLabel(text: filialsData.phone_info ?? "")
-        let text3 = configureLabel(text: "text1 dadasdsdfls;dkf;skf;l")
+        let text3 = configureLabel(text: filialsData.name ?? "")
         
         rect1.addSubview(symbol1)
         rect2.addSubview(symbol2)
