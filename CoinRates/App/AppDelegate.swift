@@ -10,8 +10,8 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-//        YMKMapKit.setApiKey("83161194-67d0-4eea-bf9e-f86ad2d25dff")
-//        YMKMapKit.sharedInstance()
+        YMKMapKit.setApiKey("83161194-67d0-4eea-bf9e-f86ad2d25dff")
+        YMKMapKit.sharedInstance()
         return true
     }
 
