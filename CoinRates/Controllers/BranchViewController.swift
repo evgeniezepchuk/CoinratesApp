@@ -162,14 +162,14 @@ extension BranchViewController {
             mapView.leadingAnchor.constraint(equalTo: backView.leadingAnchor, constant: 10),
             mapView.trailingAnchor.constraint(equalTo: backView.trailingAnchor, constant: -10),
             mapView.bottomAnchor.constraint(equalTo: backView.safeAreaLayoutGuide.bottomAnchor, constant: -10),
-            mapView.heightAnchor.constraint(equalToConstant: 150)
+            mapView.topAnchor.constraint(equalTo: rect3.bottomAnchor, constant: 10)
         ])
         
         NSLayoutConstraint.activate([
             descriptionView.topAnchor.constraint(equalTo: backView.topAnchor, constant: 10),
             descriptionView.leadingAnchor.constraint(equalTo: backView.leadingAnchor, constant: 10),
             descriptionView.trailingAnchor.constraint(equalTo: backView.trailingAnchor, constant: -10),
-            descriptionView.bottomAnchor.constraint(equalTo: mapView.topAnchor)
+            descriptionView.heightAnchor.constraint(equalToConstant: 400)
         ])
         
         NSLayoutConstraint.activate([
