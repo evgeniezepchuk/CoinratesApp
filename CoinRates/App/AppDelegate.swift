@@ -5,7 +5,8 @@
 //  Created by Евгений Езепчук on 27.07.24.
 //
 
-import UIKit
+import UIKit 
+import YandexMapsMobile
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
